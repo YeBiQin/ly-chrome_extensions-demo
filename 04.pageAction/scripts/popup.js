@@ -9,7 +9,12 @@ function randomColor() {
 let num = 0;
 const btn = document.getElementById("btn");
 btn.onclick = function () {
+  console.log("chrome: ", chrome);
   const { browserAction } = chrome;
   browserAction.setBadgeText({ text: `${++num}` });
   browserAction.setBadgeBackgroundColor({ color: randomColor() });
+
+  // const { pageAction } = chrome;
+  // pageAction.setBadgeText({ text: `${++num}` });
+  // pageAction.setBadgeBackgroundColor({ color: randomColor() });
 };

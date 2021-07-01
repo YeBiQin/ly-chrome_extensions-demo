@@ -11,11 +11,11 @@
   },
   "description": "Chrome拓展入门_06.omnibox",
   // 多选一，或者都不提供
-  "browser_action": {
-    "default_icon": "assets/icon19.png",
-    "default_popup": "popup.html",
-    "default_title": "这是一个示例Chrome插件"
-  },
+  // "browser_action": {
+  //   "default_icon": "assets/icon19.png",
+  //   "default_popup": "popup.html",
+  //   "default_title": "这是一个示例Chrome插件"
+  // },
   // "page_action": {
   //   "default_icon": "assets/icon19.png",
   //   "default_popup": "popup.html",

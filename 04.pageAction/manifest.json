@@ -11,20 +11,14 @@
   },
   "description": "Chrome拓展入门_04.pageAction",
   // 多选一，或者都不提供
-  // "browser_action": {
-  //   "default_icon": "assets/icon19.png",
-  //   "default_popup": "popup.html",
-  //   "default_title": "这是一个示例Chrome插件"
-  // },
   "page_action": {
     "default_icon": "assets/icon19.png",
     "default_popup": "popup.html",
     "default_title": "这是一个示例Chrome插件"
   },
   // 根据需求添加
-  "omnibox": { "keyword": "search" },
   "background": {
     "scripts": ["scripts/background.js"]
   },
-  "permissions": ["contextMenus", "declarativeContent"]
+  "permissions": ["declarativeContent"]
 }

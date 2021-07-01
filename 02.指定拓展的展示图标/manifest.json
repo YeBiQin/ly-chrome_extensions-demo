@@ -14,7 +14,7 @@
   // 插件描述
   "description": "Chrome拓展入门_02.指定拓展的展示图标",
   "browser_action": {
-    "default_icon": "img/icon19.png",
+    "default_icon": "assets/icon19.png",
     "default_popup": "popup.html",
     "default_title": "这是一个示例Chrome插件"
   }
