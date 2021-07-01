@@ -1,0 +1,30 @@
+{
+  // 必须的字段
+  "name": "初识manifest",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  // 建议提供的字段
+  "icons": {
+    "16": "assets/icon19.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  },
+  "description": "Chrome拓展入门_001_初识manifest.json",
+  // 多选一，或者都不提供
+  // "browser_action": {
+  //   "default_icon": "assets/icon19.png",
+  //   "default_popup": "popup.html",
+  //   "default_title": "这是一个示例Chrome插件"
+  // },
+  "page_action": {
+    "default_icon": "assets/icon19.png",
+    "default_popup": "popup.html",
+    "default_title": "这是一个示例Chrome插件"
+  },
+  // 根据需求添加
+  "omnibox": { "keyword": "search" },
+  "background": {
+    "scripts": ["scripts/background.js"]
+  },
+  "permissions": ["contextMenus", "declarativeContent"]
+}
