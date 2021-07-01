@@ -1,6 +1,6 @@
 {
   // 必须的字段
-  "name": "初识manifest",
+  "name": "09.消息传递 - 长时间",
   "version": "1.0.0",
   "manifest_version": 2,
   // 建议提供的字段
@@ -9,7 +9,7 @@
     "48": "assets/icon48.png",
     "128": "assets/icon128.png"
   },
-  "description": "Chrome拓展入门_001_初识manifest.json",
+  "description": "Chrome拓展入门_09.消息传递 - 长时间",
   // 多选一，或者都不提供
   "browser_action": {
     "default_icon": "assets/icon19.png",

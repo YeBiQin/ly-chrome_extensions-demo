@@ -1,6 +1,6 @@
 {
   // 插件的名称
-  "name": "初识manifest",
+  "name": "01.初识manifest",
   // 插件的版本
   "version": "1.0.0",
   // 清单文件的版本，这个必须写，而且必须是2
@@ -12,5 +12,5 @@
     "128": "assets/icon128.png"
   },
   // 插件描述
-  "description": "Chrome拓展入门_001_初识manifest.json"
+  "description": "Chrome拓展入门_01.初识manifest"
 }
