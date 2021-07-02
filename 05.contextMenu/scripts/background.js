@@ -7,6 +7,7 @@ const list = [
     id: "text",
     type: "normal",
     title: "普通文本",
+    onclick: genericOnClick,
     contexts: ["all"],
   },
   {
@@ -14,6 +15,7 @@ const list = [
     type: "radio",
     title: "单选按钮 1",
     checked: false,
+    onclick: genericOnClick,
     contexts: ["all"],
   },
   {
@@ -21,6 +23,7 @@ const list = [
     type: "radio",
     title: "单选按钮 2",
     checked: false,
+    onclick: genericOnClick,
     contexts: ["all"],
   },
   {
@@ -35,6 +38,7 @@ const list = [
     type: "checkbox",
     title: "多选按钮 2",
     checked: true,
+    onclick: genericOnClick,
     contexts: ["all"],
   },
 ];
@@ -45,6 +49,7 @@ chrome.runtime.onInstalled.addListener(() => {
       id: item.id,
       type: item.type,
       title: item.title,
+      onclick: item.onclick,
     };
 
     if (item.checked) {
